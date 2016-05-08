@@ -1,3 +1,6 @@
+[![Docker Pulls](https://img.shields.io/docker/pulls/brianlow/keras-cuda.svg?style=flat-square)](https://hub.docker.com/r/brianlow/keras-cuda/)
+[![Docker Stars](https://img.shields.io/docker/stars/brianlow/keras-cuda.svg?style=flat-square)](https://hub.docker.com/r/brianlow/keras-cuda/)
+
 keras-cuda
 ==========
 

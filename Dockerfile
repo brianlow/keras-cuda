@@ -36,3 +36,6 @@ RUN cd /root && \
   python setup.py install
 
 WORKDIR /root/keras
+
+# Seems to need at least one successful CPU run before CUDA works
+RUN THEANO_FLAGS=mode=FAST_RUN,device=cpu,floatX=float32 python /root/keras/examples/imdb_cnn.py
